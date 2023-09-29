@@ -68,7 +68,7 @@ define gui.interface_text_font = "fonts/SourceHanSerifCN-Regular.ttf"
 define gui.text_size = 33
 
 ## 角色名称的大小。
-define gui.name_text_size = 45
+define gui.name_text_size = 30
 
 ## 游戏用户界面中文本的大小。
 define gui.interface_text_size = 33
