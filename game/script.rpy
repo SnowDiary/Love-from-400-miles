@@ -25,7 +25,7 @@ label start:
 
     e "感谢你游玩由SquareCircle旗下品牌SnowDiary的第一款测试向Galgame！"
 
-    e "TheStoryOfTheStar 是基于 Ren'Py 进行开发的，并且作为第一个SnowDiary测试向的GalGame将完全开源。（https://github.com/SnowDiary/TheStoryOfTheStar）"
+    e "Love from 400 miles 是基于 Ren'Py 进行开发的，并且作为第一个SnowDiary测试向的GalGame将完全开源。（https://github.com/SnowDiary/Love from 400 miles）"
 
     e "最后，请开始协助我们测试这款游戏！"
 

@@ -3,14 +3,14 @@
     "google_play_key": null,
     "google_play_salt": null,
     "heap_size": "3",
-    "icon_name": "TheStoryOfTheStar",
+    "icon_name": "Love from 400 miles",
     "include_pil": false,
     "include_sqlite": false,
     "layout": null,
-    "name": "TheStoryOfTheStar",
+    "name": "Love from 400 miles",
     "numeric_version": 1,
     "orientation": "sensorLandscape",
-    "package": "com.SnowDiary.thestoryofthestar",
+    "package": "com.SnowDiary.lovefrom400miles",
     "permissions": [
         "VIBRATE",
         "INTERNET"

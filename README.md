@@ -1,4 +1,4 @@
-# TheStoryOfTheStar
+# Love from 400 miles
 
 The test game by SnowDiary
 
