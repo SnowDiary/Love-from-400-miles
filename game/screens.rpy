@@ -350,35 +350,35 @@ screen main_menu():
             idle "gui/button/main_menu_button.png"
             foreground "new_game_button_text"
             at main_menu_button_in(1.8)
-            yoffset -60
+            yoffset -55
             action Start()
 
         imagebutton:
             idle "gui/button/main_menu_button.png"
             foreground "load_game_button_text"
             at main_menu_button_in(1.5)
-            yoffset -50
+            yoffset -45
             action ShowMenu("load")
 
         imagebutton:
             idle "gui/button/main_menu_button.png"
             foreground "preference_button_text"
             at main_menu_button_in(1.2)
-            yoffset -40
+            yoffset -35
             action ShowMenu("preferences")
 
         imagebutton:
             idle "gui/button/main_menu_button.png"
             foreground "about_button_text"
             at main_menu_button_in(0.9)
-            yoffset -30
+            yoffset -25
             action ShowMenu("about")
 
         imagebutton:
             idle "gui/button/main_menu_button.png"
             foreground "help_button_text"
             at main_menu_button_in(0.6)
-            yoffset -20
+            yoffset -15
             action ShowMenu("help")
 
         if renpy.variant("pc"):
