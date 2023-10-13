@@ -23,9 +23,9 @@ label start:
 
     e "氦，我是Ju33Huang22"
 
-    e "感谢你游玩由FakeMirror旗下品牌EmoViva的第一款测试向Galgame！"
+    e "感谢你游玩由SquareCircle旗下品牌SnowDiary的第一款测试向Galgame！"
 
-    e "TheStoryOfTheStar 是基于 Ren'Py 进行开发的，并且作为第一个EmoViva测试向的GalGame将完全开源。（https://github.com/EmoViva/TheStoryOfTheStar）"
+    e "TheStoryOfTheStar 是基于 Ren'Py 进行开发的，并且作为第一个SnowDiary测试向的GalGame将完全开源。（https://github.com/SnowDiary/TheStoryOfTheStar）"
 
     e "最后，请开始协助我们测试这款游戏！"
 

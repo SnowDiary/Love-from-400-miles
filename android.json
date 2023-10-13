@@ -10,7 +10,7 @@
     "name": "TheStoryOfTheStar",
     "numeric_version": 1,
     "orientation": "sensorLandscape",
-    "package": "com.emoviva.thestoryofthestar",
+    "package": "com.SnowDiary.thestoryofthestar",
     "permissions": [
         "VIBRATE",
         "INTERNET"

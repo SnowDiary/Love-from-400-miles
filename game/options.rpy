@@ -28,9 +28,9 @@ define config.version = "1.0"
 ## 行。
 
 define gui.about = _p("""
-Made by EmoViva
+Made by SnowDiary
 
-GitHub：{a=https://github.com/EmoViva}@EmoViva{/a}
+GitHub：{a=https://github.com/SnowDiary}@SnowDiary{/a}
 """)
 
 
