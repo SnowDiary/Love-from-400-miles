@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/screens.rpy", line 350: 'main_menu_button_in' is not a keyword argument or valid child of the transform statement.
+    transform main_menu_button_in(delay):
+                                 ^
+
+Ren'Py Version: Ren'Py 8.2.0.0+unofficial
+Sat Oct 14 03:18:10 2023

@@ -339,59 +339,117 @@ style navigation_button_text:
 ## https://www.renpy.cn/doc/screen_special.html#main-menu
 
 screen main_menu():
-
-    ## 此语句可确保替换掉任何其他菜单屏幕。
     tag menu
-
     add gui.main_menu_background
 
-    ## 此空框可使标题菜单变暗。
-    frame:
-        style "main_menu_frame"
+    vbox:
+        xalign 1.0  # 将按钮右对齐
+        yalign 0.5  # 将按钮列为正中
 
-    ## use 语句将其他的屏幕包含进此屏幕。标题屏幕的实际内容在导航屏幕中。
-    use navigation
+        imagebutton:
+            idle "gui/button/main_menu_button.png"
+            foreground "new_game_button_text"
+            at main_menu_button_in(1.8)
+            yoffset -60
+            action Start()
 
-    if gui.show_name:
+        imagebutton:
+            idle "gui/button/main_menu_button.png"
+            foreground "load_game_button_text"
+            at main_menu_button_in(1.5)
+            yoffset -50
+            action ShowMenu("load")
 
-        vbox:
-            style "main_menu_vbox"
+        imagebutton:
+            idle "gui/button/main_menu_button.png"
+            foreground "preference_button_text"
+            at main_menu_button_in(1.2)
+            yoffset -40
+            action ShowMenu("preferences")
 
-            text "[config.name!t]":
-                style "main_menu_title"
+        imagebutton:
+            idle "gui/button/main_menu_button.png"
+            foreground "about_button_text"
+            at main_menu_button_in(0.9)
+            yoffset -30
+            action ShowMenu("about")
 
-            text "[config.version]":
-                style "main_menu_version"
+        imagebutton:
+            idle "gui/button/main_menu_button.png"
+            foreground "help_button_text"
+            at main_menu_button_in(0.6)
+            yoffset -20
+            action ShowMenu("help")
+
+        if renpy.variant("pc"):
+        # “退出”按钮在 iOS 上被禁止设置，在安卓和网页上也不是必需的。
+            imagebutton:
+                idle "gui/button/main_menu_button.png"
+                foreground "quit_button_text"
+                at main_menu_button_in(0.4)
+                yoffset -10
+                action Quit()
+
+# 定义按钮动画效果
+transform main_menu_button_in(delay):
+    xoffset 382
+    on start:
+        time delay
+        easein_quint 2.0 xoffset -35
+        
 
 
-style main_menu_frame is empty
-style main_menu_vbox is vbox
-style main_menu_text is gui_text
-style main_menu_title is main_menu_text
-style main_menu_version is main_menu_text
-
-style main_menu_frame:
-    xsize 420
-    yfill True
-
-    background "gui/overlay/main_menu.png"
-
-style main_menu_vbox:
-    xalign 1.0
-    xoffset -30
-    xmaximum 1200
-    yalign 1.0
-    yoffset -30
-
-style main_menu_text:
-    properties gui.text_properties("main_menu", accent=True)
-
-style main_menu_title:
-    properties gui.text_properties("title")
-
-style main_menu_version:
-    properties gui.text_properties("version")
-
+# 文字本体样式
+style main_menu_button_text_fill:
+    align (0.5, 0.5)
+    size 30
+    # font ""
+    color "#ffffff"
+    # outlines [(1, "#ffffff", 0, 0)]
+ 
+# 文字投影样式
+# style main_menu_button_text_shadow:
+    #align (0.5, 0.5)
+    #size 30
+    # font ""
+    #color "#c0c0c0"
+    #outlines [(2, "#c0c0c0", 3, 3)]
+ 
+image new_game_button_text:
+    #contains:
+    #    Text("开始", style = "main_menu_button_text_shadow")
+    contains:
+        Text("开始", style = "main_menu_button_text_fill")
+     
+image load_game_button_text:
+    #contains:
+    #    Text("读取", style = "main_menu_button_text_shadow")
+    contains:
+        Text("读取", style = "main_menu_button_text_fill")
+ 
+image preference_button_text:
+    #contains:
+    #    Text("设置", style = "main_menu_button_text_shadow")
+    contains:
+        Text("设置", style = "main_menu_button_text_fill")
+ 
+image about_button_text:
+    #contains:
+    #    Text("关于", style = "main_menu_button_text_shadow")
+    contains:
+        Text("关于", style = "main_menu_button_text_fill")
+ 
+image help_button_text:
+    #contains:
+    #    Text("帮助", style = "main_menu_button_text_shadow")
+    contains:
+        Text("帮助", style = "main_menu_button_text_fill")
+ 
+image quit_button_text:
+    #contains:
+    #    Text("退出", style = "main_menu_button_text_shadow")
+    contains:
+        Text("退出", style = "main_menu_button_text_fill")
 
 ## 游戏菜单屏幕 ######################################################################
 ##
