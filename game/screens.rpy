@@ -395,7 +395,7 @@ transform main_menu_button_in(delay):
     xoffset 382
     on start:
         time delay
-        easein_quint 2.0 xoffset -35
+        easein_quint 1.5 xoffset -35
         
 
 
