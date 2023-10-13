@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 350: 'main_menu_button_in' is not a keyword argument or valid child of the transform statement.
-    transform main_menu_button_in(delay):
-                                 ^
+File "game/gui.rpy", line 92: expected '=' not found.
+    image gui.main_menu_background = "gui/main_menu.png"
+             ^
+
+File "game/gui.rpy", line 93: end of line expected.
+    show gui.main_menu_background with dissolve
+            ^
 
 Ren'Py Version: Ren'Py 8.2.0.0+unofficial
-Sat Oct 14 03:18:10 2023
+Sat Oct 14 03:50:52 2023

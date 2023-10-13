@@ -87,6 +87,16 @@ define gui.title_text_size = 75
 
 ## 标题菜单和游戏菜单使用的图像。
 define gui.main_menu_background = "gui/main_menu.png"
+
+# 曲线救国实现主菜单背景图片渐变(dissolve)
+label main_menu:
+    scene white_background
+    with Pause(1)
+    image main_menu_background = "gui/main_menu.png"
+    show main_menu_background with dissolve
+    call screen main_menu
+    return
+
 define gui.game_menu_background = "gui/game_menu.png"
 
 
