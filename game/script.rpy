@@ -27,7 +27,36 @@ label start:
 
     e "Love from 400 miles 是基于 Ren'Py 进行开发的，并且作为第一个SnowDiary测试向的GalGame将完全开源。（https://github.com/SnowDiary/Love from 400 miles）"
 
+    menu:
+
+        e "接下来请尝试切换支线"
+
+        "支线1":
+
+            jump Line_1
+
+        "支线2":
+
+            jump Line_2
+
+
+label Line_1:
+    e "这里是支线1"
+
+    e "然后直接从支线1跳到结尾"
+
+    jump end
+
+label Line_2:
+    e "这里是支线2"
+
+    e "然后直接从支线2跳到结尾"
+
+    jump end
+
+label end:
     e "最后，请开始协助我们测试这款游戏！"
+
 
     # 此处为游戏结尾。
 
