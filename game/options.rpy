@@ -37,7 +37,7 @@ GitHub：{a=https://github.com/SnowDiary}@SnowDiary{/a}
 ## 在构建的发布版中，可执行文件和目录所使用的短名称。此处仅限使用 ASCII 字符，并
 ## 且不能包含空格、冒号或分号。
 
-define build.name = "Love from 400 miles"
+define build.name = "Lovefrom400miles"
 
 
 ## 音效和音乐 #######################################################################
