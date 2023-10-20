@@ -395,7 +395,7 @@ transform main_menu_button_in(delay):
     xoffset 382
     on start:
         time delay
-        easein_quint 1.5 xoffset -35
+        easein_quint 1.5 xoffset -0
         
 
 
@@ -404,7 +404,7 @@ style main_menu_button_text_fill:
     align (0.5, 0.5)
     size 30
     # font ""
-    color "#ffffff"
+    color "#000000"
     # outlines [(1, "#ffffff", 0, 0)]
  
 # 文字投影样式
