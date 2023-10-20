@@ -25,7 +25,7 @@ label start:
 
     e "{cps=20}感谢你游玩由SquareCircle旗下品牌SnowDiary的第一款测试向Galgame！{/cps}"
 
-    e "{cps=20}Love from 400 miles 是基于 Ren'Py 进行开发的，并且作为第一个SnowDiary测试向的GalGame将完全开源。（https://github.com/SnowDiary/Love from 400 miles）{/cps}"
+    e "{cps=20}Love from 400 miles 是基于 Ren'Py 进行开发的，目前仍在测试阶段{/cps}"
 
     menu:
 
