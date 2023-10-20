@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 15: expected '=' not found.
-    image bg1 images/bg/bg1.jpg
-                    ^
+File "game/script.rpy", line 12: camera statement expects a non-empty block.
+    camera:
+           ^
+
+File "game/script.rpy", line 13: expected statement.
+    xalign 0.5 yalign 0.5
+            ^
 
 Ren'Py Version: Ren'Py 8.2.0.0+unofficial
-Sat Oct 21 03:25:56 2023
+Sat Oct 21 03:50:23 2023

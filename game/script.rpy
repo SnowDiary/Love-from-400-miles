@@ -19,6 +19,8 @@ label start:
     # 显示角色立绘。此处使用了占位图，但您也可以在图片目录添加命名为
     # eileen happy.png 的文件来将其替换掉。
 
+    image eileen happy = "images/character/test1.png"
+
     show eileen happy
 
     # 此处显示各行对话。
