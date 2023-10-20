@@ -12,7 +12,9 @@ label start:
     # 显示一个背景。此处默认显示占位图，但您也可以在图片目录添加一个文件
     # （命名为 bg room.png 或 bg room.jpg）来显示。
 
-    scene bg room
+    image bg1 = "images/bg/bg1.png"
+
+    scene bg1
 
     # 显示角色立绘。此处使用了占位图，但您也可以在图片目录添加命名为
     # eileen happy.png 的文件来将其替换掉。

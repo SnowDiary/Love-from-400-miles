@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 50: expected ':' not found.
-    label end
-             ^
+File "game/script.rpy", line 15: expected '=' not found.
+    image bg1 images/bg/bg1.jpg
+                    ^
 
 Ren'Py Version: Ren'Py 8.2.0.0+unofficial
-Sat Oct 14 04:10:25 2023
+Sat Oct 21 03:25:56 2023
