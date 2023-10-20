@@ -21,15 +21,15 @@ label start:
 
     # 此处显示各行对话。
 
-    e "氦，我是Ju33Huang22"
+    e "{cps=20}氦，我是Ju33Huang22{/cps}"
 
-    e "感谢你游玩由SquareCircle旗下品牌SnowDiary的第一款测试向Galgame！"
+    e "{cps=20}感谢你游玩由SquareCircle旗下品牌SnowDiary的第一款测试向Galgame！{/cps}"
 
-    e "Love from 400 miles 是基于 Ren'Py 进行开发的，并且作为第一个SnowDiary测试向的GalGame将完全开源。（https://github.com/SnowDiary/Love from 400 miles）"
+    e "{cps=20}Love from 400 miles 是基于 Ren'Py 进行开发的，并且作为第一个SnowDiary测试向的GalGame将完全开源。（https://github.com/SnowDiary/Love from 400 miles）{/cps}"
 
     menu:
 
-        e "接下来请尝试切换支线"
+        e "{cps=20}接下来请尝试切换支线{/cps}"
 
         "支线1":
 
@@ -41,21 +41,21 @@ label start:
 
 
 label Line_1:
-    e "这里是支线1"
+    e "{cps=20}这里是支线1{/cps}"
 
-    e "然后直接从支线1跳到结尾"
+    e "{cps=20}然后直接从支线1跳到结尾{/cps}"
 
     jump end
 
 label Line_2:
-    e "这里是支线2"
+    e "{cps=20}这里是支线2{/cps}"
 
-    e "然后直接从支线2跳到结尾"
+    e "{cps=20}然后直接从支线2跳到结尾{/cps}"
 
     jump end
 
 label end:
-    e "最后，请开始协助我们测试这款游戏！"
+    e "{cps=20}最后，请开始协助我们测试这款游戏！{/cps}"
 
 
     # 此处为游戏结尾。
